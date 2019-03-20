@@ -1,0 +1,278 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+html {
+  height: 100%;
+  width: 100%;
+  min-width: 1300px;
+}
+
+
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Poppins;
+  font-size: .875rem;
+  letter-spacing: 0.015625em;
+  font-weight: lighter;
+}
+
+h1 {
+  font-size: 2.25rem;
+  font-weight: lighter;
+  color: white;
+}
+
+h2 {
+  font-size: 2rem;
+  font-weight:80;
+  margin-bottom: 20px;
+}
+
+.heart {
+  font-family: Poppins;
+  font-size: .875rem;
+  letter-spacing: 0.015625em;
+  margin-left: 20px;
+  margin-right: 20px;
+  cursor: default;
+}
+
+nav {
+  background-color: #C12127;
+  color: rgba(255,255,255,0.8);
+  padding-top: 15px;
+  height: 30px;
+}
+
+nav a {
+  color: rgba(255,255,255,0.8);
+  text-decoration: none;
+}
+
+
+
+.top-links {
+  display: inline-block;
+  float: right;
+  padding: 0;
+  margin: 0 20px 0 0;
+  text-align: center;
+}
+
+.top-links li {
+  display: inline-block;
+  margin: 0 10px;
+  text-align: center;
+}
+
+.top-left {
+  display: inline-block;
+  float: left;
+  padding: 0;
+  margin: 0 20px 0 0;
+  text-align: left;
+}
+
+.header-background {
+  background: url(images/city-scape.svg);
+  background-position: 0 0;
+  height: 450px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.search-bar {
+  margin: 0 auto;
+  position: relative;
+}
+
+.search-bar-left {
+  float: left;
+  margin: 15px;
+  display: inline-block;
+  text-align: left;
+  height: 40px;
+}
+
+.search-bar-right {
+  float: right;
+  margin: 10px 5px;
+  display: inline-block;
+  text-align: center;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  }
+
+#search {
+  width: 870px;
+  height: 30px;
+  background: rgb(31, 82, 111);
+  border: 1px solid grey;
+  padding-left: 15px;
+  font-size: 12pt;
+  font-family: Poppins;
+  color: white;
+  position: absolute;
+}
+
+.search-bar a {
+  color: rgba(255,255,255,0.8);
+  text-decoration: none;
+}
+
+.search-bar p {
+  color: rgba(255,255,255,0.8);
+  font-size: lighter;
+}
+
+.search-icon {
+  float: left;
+  background: rgb(31, 82, 111);
+  border: 1px solid grey;
+  color:grey;
+  height: 28px;
+  width: 28px;
+  margin-left: 870px;
+  margin-top: -15px;
+  position: absolute;
+}
+
+.header-content {
+  margin-top: 100px;
+  margin-left: 200px;
+  color: rgba(255,255,255,0.8);
+  width: 500px;
+  letter-spacing: 0.015625em;
+  position: absolute;
+}
+
+.button {
+  margin-top: 20px;
+  padding: 10px 25px;
+  border-radius:20px;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.button-header{
+  background-color: rgb(240, 146, 51);
+}
+
+.button-collaboration {
+  background-color: rgb(203, 56, 55);
+  margin-bottom: 15px;
+}
+
+.button-what-is-npm {
+  background-color: rgb(49, 68, 88);
+  margin-top: 15px;
+}
+
+.npm-collaboration {
+  background-color: rgb(39, 53, 71);
+  color: white;
+}
+
+.npm-collaboration img {
+  width: 35%;
+  margin: 100px 0 100px 200px;
+  float:left;
+}
+
+.content-collaboration {
+  margin: 0 auto;
+  width: 400px;
+  float: right;
+  margin: 100px 200px 30px auto;
+  font-weight: 60;
+  color: rgba(255,255,255,0.8);
+}
+
+.content-collaboration h2 {
+  color:white;
+}
+
+.ul-collaboration {
+  line-height: 25pt;
+}
+
+.npm-collaboration a {
+  color: rgba(255,255,255,0.8);
+  text-decoration: none;
+}
+
+.what-is-npm {
+  background: url(images/forklift.svg);
+  background-position: 0 0;
+  height: 450px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.content-what-is-npm {
+  position: absolute;
+  padding: 110px 120px;
+  font-weight: 60;
+  color: rgba(255,255,255,0.8);
+  width: 350px;
+}
+
+.content-what-is-npm h2 {
+  color:white;
+}
+
+.heading-possibilities {
+  margin: 50px auto 20px auto;
+  display: table;
+}
+
+.col { float: left; }
+
+.col-3 {
+  width: 30%;
+  display: block;
+  text-align: center; }
+
+.col-middle {
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.articles-possibilities {
+  width: 1000px;
+  Margin: 0 auto;
+  Padding: 25px auto;
+}
+
+.possibilities h2 h3 {
+  color: rgb(83, 88, 98);
+  padding-bottom: 75px;
+}
+
+.possibilities p {
+  color: rgb(135, 145, 156);
+}
+
+.articles-possibilities img {
+  padding-bottom: 20px;
+}
+
+.articles-possibilities p {
+  padding-bottom: 50px;
+}
+
+.link-red {
+  color: rgb(208, 74, 73);
+  text-decoration: none;
+}
+
+.clearfix { clear: both; }
